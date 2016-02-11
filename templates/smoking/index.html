@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Smoking Server</title>
+</head>
+<body>
+{% include 'smoking/layout/topmenu.html' %}
+<h4>signup</h4>
+<form method="post" action="/smoking/api/signUp/">				
+    <input type=hidden name="uuid" value="1854woo"/>
+   	<input type="hidden" name="username" value="woo"/>	        	    
+    <input type="submit" value="SignUp"/>
+</form>	
+<h4>sendMoney</h4>
+<form method="post" action="/smoking/api/sendMoney/">				
+    <input type=hidden name="user_id" value="1854woo"/>
+   	<input type="hidden" name="username" value="woo"/>	        	    
+    <input type="submit" value="SignUp"/>
+</form>	
+</body>
+</html>

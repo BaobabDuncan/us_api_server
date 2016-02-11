@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Smoking Server</title>
+</head>
+<body>
+{% include 'sixstreet/layout/topmenu.html' %}
+<h4>Create Club</h4>
+<form method="post" action="/sixstreet/createClub/">				
+    name<input type="text" name="name" value="우리나라"/><br>
+   	detail<input type="text" name="detail" value=""/><br>	        	    
+    <input type="submit" value="Create"/>
+</form>
+
+<form method="post" action="/sixstreet/createMember/">				
+    club id<input type="text" name="club_id" value="578611ff2ce5449cbcbaa9ea6f48f2"/><br>   	   
+    <input type="submit" value="Create"/>
+</form>		
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+{% if results.callback %}{{results.callback}}{% endif %}({
+	"api_header":{{% include 'json/api_header.json' %}	
+	}
+});

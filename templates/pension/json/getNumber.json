@@ -1,0 +1,19 @@
+{% if results.callback %}{{results.callback}}{% endif %}({
+	"api_header":{{% include 'json/api_header.json' %}	
+	},
+	"numbers": [{% for result in results.Number_ref %}
+	{
+		"uuid":"{{result.uuid}}",
+		"update_at":"{{result.update_at|date:"Y-m-d H:i:s"}}",		
+		"lotSeq":"{{result.lotSeq}}",
+		"grade":"{{result.grade}}",
+		"money":"{{result.money}}",
+		"number1":"{{result.number1}}",
+		"number2":"{{result.number2}}",
+		"number3":"{{result.number3}}",
+		"number4":"{{result.number4}}",
+		"number5":"{{result.number5}}",
+		"number6":"{{result.number6}}",
+		"number7":"{{result.number7}}",
+	}{% if not forloop.last %},{% endif %}{% endfor %}]
+});

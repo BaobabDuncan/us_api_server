@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Kinggame Server</title>
+</head>
+<body>
+{% include 'kinggame/layout/topmenu.html' %}
+
+<h4>Send Penalty</h4>
+
+<form method="post" action="/kinggame/api/sendPenalty/">				
+    <input type="text" name="detail" value="술먹어"/>   	
+   	<select name="lang_type">
+		<option value="kr">Korea</option>
+		<option value="en">English</option>		
+	</select>
+   	<select name="type">
+		<option value="user">userPenalty</option>
+		<option value="admin">adminPanalty</option>		
+	</select>	  
+	<input type="submit" value="Send"/> 	
+</form>
+
+<h4>Get Penalty</h4>
+<a href='/kinggame/api/getPenalty?type=kr'>Get Penalty</a>
+
+<h4>Choice Penalty</h4>
+<a href='/kinggame/api/choicePenalty?penalty_id=5478a1e099e8429182c14ed5f49aab'>Choice Penalty</a>
+
+</body>
+</html>

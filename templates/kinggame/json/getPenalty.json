@@ -1,0 +1,11 @@
+{% if results.callback %}{{results.callback}}({% endif %}{
+	"api_header":{{% include 'json/api_header.json' %}	
+	},
+	"messages": [{% for result in results.penalty_ref %}
+	{
+		"uuid":"{{result.uuid}}",
+		"update_at":"{{result.update_at|date:"Y-m-d H:i:s"}}",		
+		"detail":"{{result.detail}}",
+		"download_count":"{{result.download_count}}"
+	}{% if not forloop.last %},{% endif %}{% endfor %}]
+}{% if results.callback %});{% endif %}

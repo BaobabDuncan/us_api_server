@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Armageddon Server</title>
+</head>
+<body>
+{% include 'smoking/layout/topmenu.html' %}
+<h4>Send Wall Poster</h4>
+<form method="post" action="/armageddon/api/sendWallPoster/">				
+    <input type="text" name="name" value="Bond"/>
+   	<input type="text" name="message" value="김치"/>	        	    
+    <input type="submit" value="Send"/>
+</form>	
+<h4>Send Wall Poster</h4>
+<a href='/armageddon/api/sendWallPoster?callback=?&message=김치&name=kim'>Send</a>
+<h4>Get Wall Poster</h4>
+<a href='/armageddon/api/getWallPoster?callback=?'>Get</a>
+</body>
+</html>

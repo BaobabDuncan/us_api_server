@@ -1,0 +1,24 @@
+{% extends "base/base-body.html" %}
+{% block title %}Welcome To API{% endblock %}
+
+{% block content %}
+    <h1>{{page_title}}</h1> 
+    <p>Account</p>    
+    <a href='account/signup.json?callback=?&user_id=test&password=123456'>signup</a> | 
+    <a href='account/edit.json?callback=?&owner_id=test&twitter_id=ww&twitter_pass=1985&facebook_id=test&facebook_pass=1985'>edit</a> | 
+    photo    
+    <p>Tweet</p>
+    <a href='tweet/post.json?callback=?&owner_id=test&message=this message'>Post</a> |
+    PostPhoto |
+    <a href='tweet/timeline.json?callback=?&new_id=3d82b686ea5f4de29748e0cb42633f4e'>TimeLine</a>
+    <p>Store</p>
+    <a href='store/getnearstore.json?callback=?&long=127.100322259&lat=37.3635245128&range=1&type=4'>NearStore</a> |
+    <a href='store/getcategorystore.json?callback=?&long=127.100322259&lat=37.3635245128&range=1&category=2'>CategoryStore</a> | 
+    <a href='store/getdetailstore.json?callback=?&store_key=1234'>DetailStore</a>
+    <p>Reveiw</p>
+    <a href='reated/reviewpost.json?callback=?&owner_id=test&store_key=6c96d6a1283645d0b5838874763e37c9&rate=5&review=review'>ReviewPost</a> |
+    <a href='reated/reviewview.json?callback=?&store_key=a80c4865d8aa423f9331eb317ce38c65'>ReviewView</a>
+    <p>Marker</p>
+    <a href='marker/getcontent.xml?callback=?&marker_id=1&type_id=4'>GetContent</a>
+    
+{% endblock %}

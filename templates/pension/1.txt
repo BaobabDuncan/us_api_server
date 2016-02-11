@@ -1,0 +1,1372 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+<html xmlns="http://www.w3.org/TR/xhtml" xml:lang="Ko" lang="Ko"> 
+
+	<HEAD>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>한국연합복권주식회사 홈페이지입니다</title>
+
+		<link href="/css/main.css" rel="stylesheet" type="text/css">
+
+	</HEAD>
+
+<body>
+
+<div id="wrap">
+
+ 
+
+
+
+
+<!--S:logotop-->
+
+<div id="header">
+
+  <div id="logo"><a href=""><img src="/images/common/img_ci.gif" /></a></div>
+
+  <div id="topm">
+
+  <a href="index.do"><img src="/images/common/topm_01.gif" alt="홈" /></a>
+
+  
+
+    <a href="login.do"><img src="/images/common/topm_02.gif" alt="로그인" /></a> 
+	<a href="joinYakgwan.do"><img src="/images/common/topm_03.gif" alt="회원가입" /></a>
+
+  
+
+  
+
+  <a href="mailto:webmaster@bokgwon.or.kr"><img src="/images/common/topm_04.gif" alt="Contact Us" /></a>
+
+  <a href="sitemap.do"><img src="/images/common/topm_05.gif" alt="사이트맵" /></a>
+
+	<!--<a href="#"><img src="/images/common/topm_08.gif" alt="이벤트" /></a>-->
+
+	&nbsp;&nbsp;
+
+  <!--<a href="#"><img src="/images/common/topm_06.gif" alt="English" /></a>-->
+
+	</div>
+
+</div>
+
+<!--E:logotop-->
+
+<!--S:submenu-->
+
+<div id="submenu"><embed src="/swf/test_topmenu.swf" width="1000" height="80" ></embed></div>
+
+<!--E:submenu-->
+
+<!--S:contentwrap-->
+
+<div id="contentwrap"><span class="mrgtop_10"></span>
+
+
+
+    
+
+
+
+<script type="text/javascript">
+
+<!--
+
+	function MM_preloadImages() { //v3.0
+
+	  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+	    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+	    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+	}
+
+	
+
+	function MM_swapImgRestore() { //v3.0
+
+	  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+	}
+
+	
+
+	function MM_findObj(n, d) { //v4.01
+
+	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+	    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+	  if(!x && d.getElementById) x=d.getElementById(n); return x;
+
+	}
+
+	
+
+	function MM_swapImage() { //v3.0
+
+	  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+	   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+	}
+
+	
+
+	//function window::onload(){
+
+	//	if(1 == "1"){
+
+	//		document.getElementById("popc").style.display = "";
+
+	//	}else{
+
+	//		document.getElementById("popc").style.display = "none";
+
+	//	}	
+
+    //}
+
+    
+
+    /*
+
+    function goSub(target, focus, state, sub){
+
+    	var mform = document.menuForm;
+
+    	
+
+    	mform.state.value = state;
+
+    	mform.sub.value = sub;
+
+    	
+
+    	mform.action = target+"?"+focus;
+
+    	mform.submit();
+
+    
+
+    }
+
+    */
+
+
+
+    function goSub(target, state, sub){ 
+
+    	var mform = document.menuForm;
+
+    	
+
+    	mform.state.value = state;
+
+    	mform.sub.value = sub;
+
+    	
+
+    	mform.action = target;
+
+    	mform.submit();
+
+    
+
+    }
+
+
+
+    
+
+//-->
+
+</script>
+
+
+
+<form name="menuForm" method="post">
+
+<input type="hidden" name="state">
+
+<input type="hidden" name="sub">
+
+
+
+<!--S:leftwrap-->
+
+<div id="leftmenuwrap">
+
+  	<div class="l_mtitle"><img src="/images/left/leftm_t1.gif" border="0"  /></div>
+
+  	<ul>
+
+		<li><img src="/images/left/leftm_tsub01_20on.gif" onClick="javaScript:goSub('annuity520.do', '1', '1')" border="0" id="Image7" onmouseover="MM_swapImage('Image7','','/images/left/leftm_tsub01_20on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+			<li class="subt" id="annu">
+
+		      	<a href="javaScript:goSub('annuity520.do', '1', '1')"><img src="/images/left/leftm_tsubli0106_off.gif" id="subImage8" onmouseover="MM_swapImage('subImage8','','/images/left/leftm_tsubli0106_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a><br />
+
+		      	<a href="javaScript:goSub('lotteryBroad.do', '1', '2')"><img src="/images/left/leftm_tsubli0107_off.gif" id="subImage9" onmouseover="MM_swapImage('subImage9','','/images/left/leftm_tsubli0107_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a><br />
+
+		      	<a href="javaScript:goSub('annuity520_lotteryNo.do', '1', '3')"><img src="/images/left/leftm_tsubli0108_on.gif" id="subImage10" onmouseover="MM_swapImage('subImage10','','/images/left/leftm_tsubli0108_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a> 
+
+		    </li>      
+
+	    <li><img src="/images/left/leftm_tsub01_03off.gif" onClick="javaScript:goSub('speetto2000.do', '2', '')" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','/images/left/leftm_tsub01_03on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+	    <li><img src="/images/left/leftm_tsub01_04off.gif" onClick="javaScript:goSub('speetto1000.do', '3', '')" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','/images/left/leftm_tsub01_04on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+	    <li><img src="/images/left/leftm_tsub01_05off.gif" onClick="javaScript:goSub('speetto500.do', '4', '')" border="0" id="Image5" onmouseover="MM_swapImage('Image5','','/images/left/leftm_tsub01_05on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+    	<li><img src="/images/left/leftm_tsub01_02off.gif" onClick="javaScript:goSub('popcorn.do', '6', '1')" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','/images/left/leftm_tsub01_02on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+		    <li class="subt" id="popc">
+
+		      	<a href="javaScript:goSub('popcorn.do', '6', '1')"><img src="/images/left/leftm_tsubli0101_off.gif" id="subImage11" onmouseover="MM_swapImage('subImage11','','/images/left/leftm_tsubli0101_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a><br />
+
+		      	<a href="javaScript:goSub('lotteryBroad.do', '6', '2')"><img src="/images/left/leftm_tsubli0103_off.gif" id="subImage12" onmouseover="MM_swapImage('subImage12','','/images/left/leftm_tsubli0103_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a><br />
+
+		      	<a href="javaScript:goSub('lotteryNo.do', '6', '3')"><img src="/images/left/leftm_tsubli0104_off.gif" id="subImage13" onmouseover="MM_swapImage('subImage13','','/images/left/leftm_tsubli0104_on.gif',0)" onmouseout="MM_swapImgRestore()"/></a>
+
+		    </li>
+
+	    <li><img src="/images/left/leftm_tsub01_06off.gif" onClick="javaScript:goSub('offStore.do', '5', '')" border="0" id="Image6" onmouseover="MM_swapImage('Image6','','/images/left/leftm_tsub01_06on.gif',0)" onmouseout="MM_swapImgRestore()" /></li>
+
+  	</ul>
+
+  	<div class="mrgtop_10"><a href="paymentCheck.do?state=4"><img src="/images/left/leftm_banner01.gif" border="0"  /></a></div>
+
+  	<div class="mrgtop_10"><a href="noPayment.do?state=5"><img src="/images/left/leftm_banner02.gif" border="0"  /></a></div>
+
+</div>
+
+<!--E:leftwrap-->
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/js/common.js"></script>
+
+
+
+
+
+
+
+<script type="text/javascript" src="/js/map_link.js"></script>
+
+<script type="text/javascript">
+
+	
+
+	function goSelect(){
+
+		var nForm = document.lotteryForm;
+
+		nForm.flag.value = 'Y';
+
+		nForm.action = "annuity520_lotteryNo.do?state=1&sub=3";
+
+		//nForm.target = "_top";
+
+		nForm.submit();
+
+	}
+
+
+
+    function sendform(){ 
+
+    	var frm = document.lotteryForm;
+
+    	//alert(frm.lotSeq1.value);
+
+    	var lotSeq1 = null;
+
+    	var lotSeq2 = null;
+
+    	var lotSeq3 = null;
+
+
+
+		lotSeq1 = frm.lotSeq1.value;
+
+		lotSeq2 = frm.lotSeq2.value;
+
+		lotSeq3 = frm.lotSeq3.value;
+
+
+
+		if (lotteryForm.LOT_JO1.value ==""){
+
+			alert("조를 입력 바랍니다.");
+
+			lotteryForm.LOT_JO1.focus();
+
+			return false;
+
+	    }
+
+
+
+		var lotLuckyNum1 = document.getElementsByName("LOT_LUCKY_NUM1");// 6자리 복권번호
+
+		var lotLuckyNum2 = document.getElementsByName("LOT_LUCKY_NUM2");// 6자리 복권번호
+
+		var lotLuckyNum3 = document.getElementsByName("LOT_LUCKY_NUM3");// 6자리 복권번호
+
+		
+
+		for(var i=0; i<lotLuckyNum1.length; i++){
+
+			if(lotLuckyNum1[i].value == ""){
+
+				alert("복권번호 6자리 모두를 입력하셔야 합니다.");
+
+				return; 
+
+			}
+
+		}
+
+		var aa = null;
+
+		var bb = null;
+
+		var cc = null;
+
+
+
+		aa = lotteryForm.LOT_JO1.value+lotLuckyNum1[0].value+lotLuckyNum1[1].value+lotLuckyNum1[2].value+lotLuckyNum1[3].value+lotLuckyNum1[4].value+lotLuckyNum1[5].value;
+
+		bb = lotteryForm.LOT_JO2.value+lotLuckyNum2[0].value+lotLuckyNum2[1].value+lotLuckyNum2[2].value+lotLuckyNum2[3].value+lotLuckyNum2[4].value+lotLuckyNum2[5].value;
+
+		cc = lotteryForm.LOT_JO3.value+lotLuckyNum3[0].value+lotLuckyNum3[1].value+lotLuckyNum3[2].value+lotLuckyNum3[3].value+lotLuckyNum3[4].value+lotLuckyNum3[5].value;
+
+
+
+		//lotteryForm.lotLucyNum.value = lotLuckyNum[0].value+lotLuckyNum[1].value+lotLuckyNum[2].value+lotLuckyNum[3].value+lotLuckyNum[4].value+lotLuckyNum[5].value;
+
+	
+
+		var winprops = 'width=400, height=400,location=0,menubar=0 ,resizable=no,scrollbars=yes,status=0,titlebar=0,toolbar=0';
+
+		window.open('popupAnnuity520.do?lotSeq1='+lotSeq1+'&lotSeq2='+lotSeq2+'&lotSeq3='+lotSeq3+'&lotLucyNum1='+aa+"&lotLucyNum2="+bb+"&lotLucyNum3="+cc,'',winprops);
+
+	}
+
+	 
+
+    function autoskip(inputname, nextinputname, length, num) {
+
+	    if((event.keyCode == 13) || (inputname.value.length >= length)) {
+
+		    nextinputname.focus();
+
+		    /*
+
+		    if(num != 5) {
+
+		    	nextinputname.value = '';
+
+		    }
+
+		    */
+
+	    }
+
+    }
+
+    
+
+    function keyOnlyNumber() {
+
+	    if ((event.keyCode < 48) || (event.keyCode > 57))
+
+		    event.returnValue=false;
+
+	    return true;
+
+   }
+
+
+
+	function inputNull(check, jo, lucky) {
+
+		var form = document.lotteryForm;
+
+
+
+		if(check == 'JO') {
+
+			if(jo == 1) form.LOT_JO1.value = "";
+
+			else if(jo == 2) form.LOT_JO2.value = "";
+
+			else form.LOT_JO3.value = "";
+
+		} 
+
+
+
+		if(check == 'NUM') {
+
+	   		if(jo == 1) {
+
+				form.LOT_LUCKY_NUM1[lucky].value = "";
+
+	    	} else if(jo == 2) {
+
+				form.LOT_LUCKY_NUM2[lucky].value = "";
+
+	    	} else {
+
+				form.LOT_LUCKY_NUM3[lucky].value = "";
+
+	    	}
+
+		}
+
+	}
+
+	
+
+	function newwin(edate){
+
+		//alert(edate);
+
+		var supply_dt = '';
+
+		var winprops = 'width=675, height=750, location=0,menubar=0 ,resizable=no,scrollbars=yes,status=0,titlebar=0,toolbar=0,left=0';
+
+		//var url = '/front/mainstay/popcorn_print.jsp';
+
+		
+
+		window.open("", "popprinter", winprops);
+
+		
+
+		lotteryForm.target = "popprinter";
+
+		lotteryForm.action = "http://localhost:8080/front/mainstay/annuity520_print.jsp?item_code=2&lot_seq=" + document.lotteryForm.lotSeq.value+"&edate="+edate;
+
+		lotteryForm.submit();
+
+	}
+
+	
+
+//-->
+
+</script>
+
+
+
+<form name="lotteryForm" method="post">
+
+<input type="hidden" name="state" value="5">
+
+<input type="hidden" name="seq">
+
+<input type="hidden" name="lotLucyNum1">
+
+<input type="hidden" name="lotLucyNum2">
+
+<input type="hidden" name="lotLucyNum3">
+
+<input type="hidden" name="flag" value="">
+
+
+
+<!--S:rightwrap-->
+
+<div id="submainwrap">
+
+  <!--01 title+navi-->
+
+	<div class="mtitlebgannuity520">
+
+  	<!-- css/contents.css에 있으며 백그라운드 그림이 정의되어 있음 -->
+
+    <div class="mnavi"><a href="http://bokgwon.or.kr">Home</a> &gt; <a href="#">인쇄복권</a> &gt; <a href="#">연금복권520</a></div>
+
+    	<div class="mrgtop_15">
+
+    		<img src="/images/main/mtitle17.gif" />
+
+    	</div>
+
+ 	</div>
+
+<!--//01 title+navi-->
+
+	<!--S : 01 subcontent -->
+
+  	<div class="subcontentwrap">
+
+  	<!--07 추첨번호안내 -->
+
+  	<br>
+
+  	<div class="boradtitl2"><img src="/images/sub/sub01tl_3.gif" /></div>
+
+  	<!--//07 추첨번호안내 -->
+
+  	<!-- bluebartitle -->
+
+  	<div class="tab_bgwrapbot">
+
+	    <div class="tab_bgfront"></div>
+
+	    <div class="tab_bglotto ">
+
+	    	<div class="t_floatL">
+
+	    		<strong>연금복권520 제 <span>1 </span>회차 당첨번호 안내
+
+	    		 
+
+	    		<span class="dategr"> [추첨일 : 2011.07.06 / 지급종료기한 : 2012.07.06]</span></strong>
+
+	    	</div>
+
+	    	<div class="t_floatR" style="width:70px;"> 
+
+	    		<!--<a href="#"><img src="/images/board/btn_printw.gif" width="70" height="20" onClick="newwin('2012.07.06')" /></a>-->
+
+	    	</div>
+
+	    </div>
+
+	    <div class="tab_bgback"></div>
+
+  	</div>
+
+  	<!--// bluebartitle -->
+
+	<div class="clear"></div>
+
+    <div id="boradtsrh2">
+
+    <strong>회차</strong>
+
+    <select name="lotSeq" class="selectBox" id="mySelect" onChange="goSelect();"  >
+
+    <!-- <option value="" >회차선택</option> -->
+
+
+
+            <option value="3"  >3 회차</option>
+
+
+
+            <option value="2"  >2 회차</option>
+
+
+
+            <option value="1" selected >1 회차</option>
+
+
+
+    </select>
+
+    </div>
+
+	<!-- board-->
+
+  	<div class="tablewrap02 mrgbot_20">
+
+    <div class="tablewrap02">
+
+          <table border="0" cellspacing="0" cellpadding="0">
+
+            <colgroup>
+
+              <col width="100" />
+
+              <col />
+
+              <col />
+
+              <col width="50" />
+
+              <col width="50" />
+
+              <col width="50" />
+
+              <col width="50" />
+
+              <col width="50" />
+
+              <col width="50" />
+
+            </colgroup>
+
+            <tbody>
+
+              <tr>
+
+                <th class="toptb01"> <img src="/index/boardtitle_grade.gif" /> </th>
+
+                <th class="toptb01"> <img src="/index/boardtitle_winprice3.gif" /> </th>
+
+                <th class="toptb01" colspan="7"> <img src="/index/boardtitle_lottonum.gif" /> </th> 
+
+              </tr>
+
+              <tr> 
+
+                <th class="color01" rowspan="2"> 1등 </th>
+
+                <th class="title021">매달500만원x20년</th>
+
+                <th class="title021"> 5 조 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 3 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title031"> 2 </th>
+
+              </tr>
+
+              <tr>
+
+                <th class="title021"> 매달500만원x20년 </th>
+
+                <th class="title021"> 4 조 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 1 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 8 </th>
+
+                <th class="title031"> 6 </th>
+
+              </tr>
+
+							<tr>
+
+                <th class="color01" rowspan="4"> 2등 </th>
+
+                <th class="title021"> 100,000,000 </th>
+
+								<th class="title021"> 5 조 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 3 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title031"> 1 </th>
+
+              </tr>
+
+							<tr>
+
+                <th class="title021"> 100,000,000 </th>
+
+								<th class="title021"> 5 조 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 3 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title031"> 3 </th>
+
+              </tr>
+
+							<tr>
+
+                <th class="title021"> 100,000,000 </th>
+
+								<th class="title021"> 4 조 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 1 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 8 </th>
+
+                <th class="title031"> 5 </th>
+
+              </tr>
+
+							<tr>
+
+                <th class="title021"> 100,000,000 </th>
+
+								<th class="title021"> 4 조 </th>
+
+                <th class="title021"> 6 </th>
+
+                <th class="title021"> 0 </th>
+
+                <th class="title021"> 1 </th>
+
+                <th class="title021"> 5 </th>
+
+                <th class="title021"> 8 </th>
+
+                <th class="title031"> 7 </th>
+
+              </tr>
+
+              <tr>
+
+                <th class="color01"> 3등 </th>
+
+                <th class="title021"> 10,000,000 </th>
+
+                <th class="title021"> 각조 </th>
+
+              <th class="title021"> 7 </th>
+
+              <th class="title021"> 2 </th>
+
+              <th class="title021"> 5 </th>
+
+              <th class="title021"> 6 </th>
+
+              <th class="title021"> 6 </th>
+
+              <th class="title031"> 8 </th>
+
+              </tr>
+
+              <tr> </tr>
+
+            </tbody>
+
+            <//TR><//TR><//TR>
+
+            <tr>
+
+              <th class="color01"> 4등 </th>
+
+              <th class="title021"> 1,000,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> 8 </th>
+
+              <th class="title021"> 1 </th>
+
+              <th class="title021"> 2 </th>
+
+              <th class="title021"> 2 </th>
+
+              <th class="title031"> 7 </th>
+
+            </tr>
+
+            <tr>
+
+              <th class="color01"> 5등 </th>
+
+              <th class="title021"> 200,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> 1 </th>
+
+              <th class="title021"> 9 </th>
+
+              <th class="title021"> 0 </th>
+
+              <th class="title031"> 0 </th>
+
+            </tr>
+
+            <tr>
+
+              <th class="color01" rowspan="2"> 6등 </th>
+
+              <th class="title021"> 2,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> 1 </th>
+
+              <th class="title031"> 5 </th>
+
+            </tr>
+
+            <tr>
+
+              <th class="title021"> 2,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> 5 </th>
+
+              <th class="title031"> 4 </th>
+
+            </tr>
+
+            <tr>
+
+              <th class="color01" rowspan="2"> 7등 </th>
+
+              <th class="title021"> 1,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title031"> 4 </th>
+
+            </tr>
+
+            <tr>
+
+              <th class="title021"> 1,000 </th>
+
+              <th class="title021"> 각조 </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title021"> ● </th>
+
+              <th class="title031"> 3 </th>
+
+            </tr>
+
+          </table>
+
+    
+
+	</div>
+
+
+
+<div class="mrgbot_25">
+
+	    <div class="contlsub01"><strong> 연금복권520 2등 확인방법</strong></div>
+
+	    <div class="contlsub02">연금복권520의 2등 당첨번호는 1등의 앞,뒤번호로 1등 당첨번호가 2조 123456번 일 경우, 2등 당첨번호는 1등의 <br />
+
+			 앞번호인 2조 123455번과 1등의 뒷번호인 2조 123457번입니다.</div>
+
+	    <div class="contlsub02">아울러, 1등 당첨번호가 해당조의 처음과 마지막 번호일 경우에는 아래와 같이 적용합니다. <br />
+
+			- 예1) 1등 당첨번호 2조 100000번 일 경우 -> 2등 2조 999999번, 2조 100001번<br />
+
+			- 예2) 1등 당첨번호 2조 999999번 일 경우 -> 2등 2조 999998번, 2조 100000번 </div>
+
+	</div>
+
+
+
+	<!--  <div>- 당첨금 지급처 : 농협중앙회 본˙지점 (1억원 미만 ~ 5만원이상 당첨금만 지급)<div class="t_floatL pdleft_10"><a href="javaScript:goNH();"><img src="/images/sub/btn_nonghyup.gif"  /></a></div>
+
+	    <div> 한국연합복권(주) 담당자 전화(02-500-3235)로 당첨여부 확인 후 방문일자와 방문시간 결정. (월~금 오전 10:00~ 오후 15:00사이)</div>
+
+	    <div>신분증과 당첨복권을 소지하여 한국연합복권(주) 방문 </div>
+
+	    <div>당첨복권 실물 확인 후 세금(소득세+주민세)을 제외한 당첨금 지급 </div>
+
+	<!-- <div class="contlsub02 t_floatL"> - 당첨금 지급처 : 농협중앙회 본˙지점 (1억원 미만 ~ 5만원이상 당첨금만 지급)<div class="t_floatL pdleft_10"><a href="javaScript:goNH();"><img src="/images/sub/btn_nonghyup.gif"  /></a></div>-->
+
+	
+
+	<!-- 여기부터 select box 당첨번호 확인. 
+
+	<div class="mrgtop_20"><img src="../images/sub/lottery_stitle03.gif" alt="당첨번호조회" /></div>
+
+  	<div class="tablewrap02 mrgtop_10">
+
+    <table border="0" cellpadding="0" cellspacing="0">
+
+    	<colgroup>
+
+			<col width="50px" />
+
+			<col width="100px" />
+
+			<col width="50px" />
+
+			<col width="100px" />
+
+			<col width="80px" />
+
+			<col width="*px" />
+
+		</colgroup>
+
+	    <tbody>
+
+	
+
+			<tr>
+
+				<th class="color01">상품</th>
+
+				<th class="title021">팝콘</th>
+
+				<th class="color01">회차</th>
+
+				<th class="title021">            
+
+				<select name="lotSeq1" class="selectBox" id="mySelect"  >
+
+				
+
+							<option value="3"  >3회차</option>
+
+				
+
+							<option value="2"  >2회차</option>
+
+				
+
+							<option value="1" selected >1회차</option>
+
+				
+
+				</select>
+
+				</th>
+
+				<th class="color01">복권번호</th>
+
+				<th class="title021">
+
+				<input name="LOT_JO1" type="text" size="2" maxlength="1" 
+
+					 onkeyup="autoskip(lotteryForm.LOT_JO1 , lotteryForm.LOT_LUCKY_NUM1[0] , 1);" 
+
+					 onkeypress="keyOnlyNumber();" onclick="inputNull('JO', '1', '');" class="input03">  조
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[0] , lotteryForm.LOT_LUCKY_NUM1[1] , 1, '0');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '0');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[1] , lotteryForm.LOT_LUCKY_NUM1[2] , 1, '1');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '1');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[2] , lotteryForm.LOT_LUCKY_NUM1[3] , 1, '2');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '2');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[3] , lotteryForm.LOT_LUCKY_NUM1[4] , 1, '3');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '3');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[4] , lotteryForm.LOT_LUCKY_NUM1[5] , 1, '4');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '4');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM1" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM1[5] , lotteryForm.LOT_LUCKY_NUM1[5] , 1, '5');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '1', '5');" class="input03">
+
+		
+
+				</th>
+
+			</tr>
+
+	
+
+			<tr>
+
+				<th class="color01">상품</th>
+
+				<th class="title021">팝콘</th>
+
+				<th class="color01">회차</th>
+
+				<th class="title021">            
+
+				<select name="lotSeq2" class="selectBox" id="mySelect"  >
+
+				
+
+							<option value="3"  >3회차</option>
+
+				
+
+							<option value="2"  >2회차</option>
+
+				
+
+							<option value="1" selected >1회차</option>
+
+				
+
+				</select>
+
+				</th>
+
+				<th class="color01">복권번호</th>
+
+				<th class="title021">
+
+				<input name="LOT_JO2" type="text" size="2" maxlength="1" 
+
+					 onkeyup="autoskip(lotteryForm.LOT_JO2 , lotteryForm.LOT_LUCKY_NUM2[0] , 1);" 
+
+					 onkeypress="keyOnlyNumber();" onclick="inputNull('JO', '2', '');" class="input03">  조
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[0] , lotteryForm.LOT_LUCKY_NUM2[1] , 1, '0');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '0');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[1] , lotteryForm.LOT_LUCKY_NUM2[2] , 1, '1');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '1');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[2] , lotteryForm.LOT_LUCKY_NUM2[3] , 1, '2');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '2');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[3] , lotteryForm.LOT_LUCKY_NUM2[4] , 1, '3');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '3');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[4] , lotteryForm.LOT_LUCKY_NUM2[5] , 1, '4');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '4');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM2" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM2[5] , lotteryForm.LOT_LUCKY_NUM2[5] , 1, '5');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '2', '5');" class="input03">
+
+		
+
+				</th>
+
+			</tr>
+
+	
+
+			<tr>
+
+				<th class="color01">상품</th>
+
+				<th class="title021">팝콘</th>
+
+				<th class="color01">회차</th>
+
+				<th class="title021">            
+
+				<select name="lotSeq3" class="selectBox" id="mySelect"  >
+
+				
+
+							<option value="3"  >3회차</option>
+
+				
+
+							<option value="2"  >2회차</option>
+
+				
+
+							<option value="1" selected >1회차</option>
+
+				
+
+				</select>
+
+				</th>
+
+				<th class="color01">복권번호</th>
+
+				<th class="title021">
+
+				<input name="LOT_JO3" type="text" size="2" maxlength="1" 
+
+					 onkeyup="autoskip(lotteryForm.LOT_JO3 , lotteryForm.LOT_LUCKY_NUM3[0] , 1);" 
+
+					 onkeypress="keyOnlyNumber();" onclick="inputNull('JO', '3', '');" class="input03">  조
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[0] , lotteryForm.LOT_LUCKY_NUM3[1] , 1, '0');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '0');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[1] , lotteryForm.LOT_LUCKY_NUM3[2] , 1, '1');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '1');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[2] , lotteryForm.LOT_LUCKY_NUM3[3] , 1, '2');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '2');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[3] , lotteryForm.LOT_LUCKY_NUM3[4] , 1, '3');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '3');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[4] , lotteryForm.LOT_LUCKY_NUM3[5] , 1, '4');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '4');" class="input03">
+
+		
+
+				<input name="LOT_LUCKY_NUM3" type="text"  size="2" maxlength="1"  
+
+					onkeyup="autoskip(lotteryForm.LOT_LUCKY_NUM3[5] , lotteryForm.LOT_LUCKY_NUM3[5] , 1, '5');"  
+
+					onkeypress="keyOnlyNumber();" onclick="inputNull('NUM', '3', '5');" class="input03">
+
+		
+
+				</th>
+
+			</tr>
+
+	
+
+		</tbody>
+
+    </table>
+
+	</div>	    
+
+	<div class="mrgtop_20">
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+
+		<tr>
+
+			<td class="lucky_brd_10"><b>※</b> 회차 선택 후 <b>[복권번호]</b>를 차례대로 입력하신 후 당첨번호 확인을 클릭 하십시오.</td>
+
+			<td width="106" rowspan="2" align="right"><img src="/images/common/btn_whsearch2.gif" border="0" alt="조회하기" onclick="sendform();" style="cursor:hand;"></td>
+
+		</tr>
+
+		<tr>
+
+			<td colspan="2"><b>※</b>  최대 3장까지 동시 확인 가능합니다.</td>
+
+		</tr>
+
+	</table>
+
+	</div>
+
+-->
+
+<!-- -->
+
+
+
+  <!-- // board-->
+
+  </div>
+
+  <!--E : 01 subcontent -->
+
+</div>
+
+</form>
+
+<!--E:rightwrap-->  
+
+</div>
+
+<!--E:contentwrap-->
+
+
+
+
+
+<!--S:footerwrap--> 
+
+<div id="footer">
+
+  <p style="padding-bottom:5px"><img src="/images/common/bottom_notice.gif" alt="19세 미만 청소년은 복권을 구입할 수 없습니다. 1회 10만원을 초과하여 판매할 수없습니다." /></p></div>
+
+<div id="footer2"> <!-- main.css에 있음 -->
+
+	<div id="fcontentL"><a href="/location.do?state=6"><img src="/images/common/botm_01.gif" alt="찾아오시는길" /></a><a href="/
+
+policy.do?state=5"><img src="/images/common/botm_02.gif" alt="개인정보취급방침"  /></a><a href="
+
+/emailPolicy.do?state=6"><img src="/images/common/botm_03.gif" alt="이메일무단수집거부" /></a></div>
+
+  <div id=""><img src="/images/common/botm_rimg_01.gif" /><a href="http://www.bokgwon.go.kr/ " target="_blank"><img src="/images/common/botm_rimg_02.jpg" alt="복권위원회"  width="60"></a>&nbsp;<a href="http://www.ngcc.go.kr/" target="_blank"><img src="/images/common/botm_rimg_03.gif" alt="사행산업통합감독위원회" /></a>&nbsp; <a href="http://www.bokgwon.go.kr/webzine/index.bg" target="_blank"><img src="/images/common/footer_webzine.gif" alt="행복공감웹진" /></a>&nbsp;<a href="http://www.bokgwon.go.kr/newsletter/letterindex.html" target="_blank"><img src="/images/common/footer_letter.gif" alt="뉴스레터" /></a></div>
+
+  <div class="clear"></div>
+
+  <div id="fcontentL"><img src="/images/common/botm_address.gif" border="0" usemap="#Map" />
+
+    <map name="Map" id="Map">
+
+      <area shape="rect" coords="166,3,242,19" href="mailto:webmaster@bokgwon.or.kr" />
+
+    </map>
+
+  </div> 
+
+</div>
+
+<!--E:footerwrap-->
+
+</div>
+
+</body>
+
+</html>

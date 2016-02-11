@@ -1,0 +1,12 @@
+{% if results.callback %}{{results.callback}}({% endif %}{
+	"api_header":{{% include 'json/api_header.json' %}
+	},	
+	"errorInfo":
+	{
+			"error_code":"{{results.errorResponse.error_code}}",
+			"error_description":"{{results.errorResponse.error_description}}",
+			"error_extra":"{{results.errorResponse.error_extra}}"
+	}
+			
+
+}{% if results.callback %});{% endif %}
